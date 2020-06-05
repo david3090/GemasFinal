@@ -1,0 +1,101 @@
+<div class="col-md-5 mx-auto">
+    <div class="card">
+        <div class="card-header" align="center">
+            <h3>New Gems</h3>
+        </div>
+        <div class="card-body">
+            <form action="/gems/new-gem" method="POST">
+                <div class="form-group">
+                    <h6 align="center">Name</h6>
+                    <input type="text"  name="Name" class="form-control" placeholder="Gem Name" autofocus>
+                </div>
+                <br>
+                <div class="form-group">
+                    <h6 align="center">Description:</h6>
+                    <textarea name="description" cols="30" rows="5" placeholder="Description" class="form-control">
+                    </textarea>
+                </div>
+                <br><br>
+                <div class="form-group">
+                    <h6 align="center">Price </h6>
+                    <input type="number"  name="price"
+                    placeholder="Price" class="form-control">
+                    </input>
+                </div>
+                <br><br>
+                <div  class="form-group">
+                    <h6 align="center">canPurchase </h6>
+                    <input name="description"  
+                    placeholder="Description" class="form-control">
+
+                    </input>
+                </div>
+                <br><br><br>
+                <div  class="form-group">
+                    <h6 align="center">Specs</h6>
+                    <div>
+                        <input name="faces"  type="number"
+                    placeholder="Faces" class="form-control">
+                    </div>
+                    
+                    <div>
+                        <input name="color"  type="text"
+                    placeholder="Color" class="form-control">
+                    </div>
+                    
+                    <div>
+                        <input name="rarity"  type="number"
+                    placeholder="Rarity" class="form-control">
+                    </div>
+                    
+                    <div>
+                        <input name="shine"  type="number"
+                    placeholder="Shine" class="form-control">
+                    </div>
+                    
+                    </input>
+                </div>
+                <br>
+                <div  class="form-group">
+                    <h6 align="center">Images</h6>
+                    <div>
+                        <input name="URL"  type="string"
+                    placeholder="Image URL" class="form-control">
+                    </div>
+                    
+                    <div>
+                        <input name="Number"  type="number"
+                    placeholder="Number Image" class="form-control">
+                    </div>
+                  </input>
+                </div>
+                <br>
+                <br>
+                <div class="form-group">
+                    <h6 align="center">review</h6>
+                    <div>
+                        <input name="stars"  type="number" min="0" max="5"
+                    placeholder="Stars level" class="form-control">
+                    </div>
+                    
+                    <div>
+                        <textarea name="body"  cols="30" rows="5"
+                    placeholder="Comment" class="form-control"></textarea>
+                    </div>
+                    <div>
+                        <input name="Author"  type="string"
+                    placeholder="Name Author" class="form-control">
+                    </div>
+                   
+                  </input>
+                </div>
+                <br>
+                <div class="form-gourp">
+                    <button class="btn btn-primary btn-block">
+                        Save
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
